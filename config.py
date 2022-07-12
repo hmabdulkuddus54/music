@@ -35,7 +35,7 @@ class Config:
     SUDO = [int(admin) for admin in (ADMIN).split()] # Exclusive for heroku vars configuration.
     ADMINS = [int(admin) for admin in (ADMIN).split()] #group admins will be appended to this list.
     API_ID = int(os.environ.get("API_ID", ''))
-    API_HASH = os.environ.get("API_HASH", "")
+    API_HASH = os.environ.get("API_HASH", "5442865811:AAHIusPfeO15Uk22I6Pg3cAdoF2IBWT4PU4")
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "")     
     SESSION = os.environ.get("SESSION_STRING", "")
 
